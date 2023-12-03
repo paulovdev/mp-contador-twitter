@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
+#container {
+    width: 40.25rem;
+    height: 100vh;
+    padding: 1rem;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-header {
+    width: 100%;
+    height: 1px;
+    background-color: #546471;
+}
+
+img {
+    position: relative;
+    bottom: 120px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.lyrical-content {
+    width: 100%;
+    height: 300px;
+}
+
+.everyone-dropdown {
+    position: relative;
+    width: 120px;
+    padding: 0.2rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px rgba(179, 179, 179, 0.308) solid;
+    border-radius: 5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.everyone-dropdown p {
+    color: #1F9BF0;
+
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem 0;
+
+    border: none;
+    outline: none;
+    resize: none;
+
+    color: #20252A;
+
+    font-size: 1.25rem;
+    font-weight: 600;
+
+
+}
+
+::placeholder {
+    color: #546471;
+
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.reply {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.reply p {
+    color: #1F9BF0;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.bottom-content {
+    width: 100%;
+    border-top: 1px rgba(179, 179, 179, 0.308) solid;
+    border-bottom: 1px rgba(179, 179, 179, 0.308) solid;
+    padding: 1rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-content .icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right-content .border {
+    position: relative;
+    width: 0.0625rem;
+    height: 2.3125rem;
+    background-color: rgba(179, 179, 179, 0.308);
+}
+
+.right-content button {
+    border: none;
+    border-radius: 1.25rem;
+    background: #1F9BF0;
+
+    padding: 0.5rem 0.9375rem;
+    color: #FFF;
+
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.svg-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-count span {
+    position: absolute;
+    color: #546471;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+button.change {
+    background-color: #7fb4e6;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1F9BF0;
+    border-radius: 4px;
+}
+
+@media (max-width:700px) {
+    #container {
+        width: 100%;
+        align-items: start;
+        flex-direction: column;
+    }
+
+
+    img {
+        bottom: 0;
+        right: 0;
+    }
+}
+
+/* #1F9BF0  */
